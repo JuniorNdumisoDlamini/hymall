@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Light blue circular background -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M32,0
+                          A32,32 0 1,1 31.999,0 Z" />
+
+    <!-- Head (outlined circle) -->
+    <path
+        android:strokeColor="#0D47A1"
+        android:strokeWidth="3"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M32,20
+                          A6,6 0 1,1 31.999,20 Z" />
+
+    <!-- Shoulders/body outline -->
+    <path
+        android:strokeColor="#0D47A1"
+        android:strokeWidth="3"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M20,46
+                          C20,38 44,38 44,46
+                          L44,50
+                          L20,50
+                          Z" />
+</vector>

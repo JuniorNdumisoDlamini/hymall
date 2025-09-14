@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash Screen Colors -->
+    <color name="splash_background">#E8F4F8</color>
+    <color name="primary_text">#2C3E50</color>
+    <color name="secondary_text">#7F8C8D</color>
+    <color name="footer_text">#95A5A6</color>
+
+    <color name="divider_color">#95A5A6</color>
+    <!-- Progress Bar Colors -->
+    <color name="progress_color">#3498DB</color>
+    <color name="progress_background">#BDC3C7</color>
+
+    <!-- Logo Colors -->
+    <color name="logo_gradient_start">#9B59B6</color>
+    <color name="logo_gradient_end">#3498DB</color>
+
+    <!-- Loading Dots -->
+    <color name="dot_active">#3498DB</color>
+    <color name="dot_inactive">#BDC3C7</color>
+
+    <!-- HyMall Brand Colors -->
+    <color name="hymall_primary">#17A2B8</color>
+    <color name="hymall_secondary">#6C757D</color>
+
+    <color name="error_color">#D32F2F</color>
+
+
+    <color name="accent_color">#FF9800</color>         <!-- Orange 500 -->
+
+    <color name="success_color">#4CAF50</color>        <!-- Green 500 -->
+    <color name="warning_color">#FFC107</color>        <!-- Amber 500 -->
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212529</color>
+    <color name="text_secondary">#6C757D</color>
+    <color name="text_muted">#ADB5BD</color>
+
+    <!-- Consumer App Colors -->
+    <color name="primary">#17A2B8</color>
+
+    <color name="border_light">#DEE2E6</color>
+
+    <!-- Map Legend Colors -->
+    <color name="red">#DC3545</color>
+    <color name="pink">#E91E63</color>
+    <color name="green">#28A745</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="divider">#E9ECEF</color>
+
+    <!-- Warning Colors -->
+    <color name="warning_background">#FFF3CD</color>
+    <color name="warning_text">#856404</color>
+
+    <!-- AI Chat Colors -->
+    <color name="ai_primary">#17A2B8</color>
+    <color name="ai_secondary">#B3E5FC</color>
+    <color name="ai_avatar_bg">#E3F2FD</color>
+    <color name="ai_button_bg">#F8F9FA</color>
+    <color name="chat_background">#F5F5F5</color>
+    <color name="input_background">#FFFFFF</color>
+    <color name="input_border">#E0E0E0</color>
+    <color name="user_message_bg">#17A2B8</color>
+    <color name="ai_message_bg">#FFFFFF</color>
+
+    <!-- Added comprehensive theme colors for light and dark mode support -->
+    <!-- Primary Brand Colors -->
+    <color name="primary_teal">#17A2B8</color>
+    <color name="primary_teal_dark">#138496</color>
+    <color name="primary_teal_light">#5DADE2</color>
+
+    <!-- Accent Colors -->
+    <color name="accent_blue">#007BFF</color>
+    <color name="accent_blue_dark">#0056B3</color>
+    <color name="accent_blue_light">#66B2FF</color>
+
+    <!-- Light Theme Colors -->
+    <color name="background_light">#FFFFFF</color>
+    <color name="surface_light">#F8F9FA</color>
+    <color name="card_background_light">#FFFFFF</color>
+    <color name="text_primary_light">#212529</color>
+    <color name="text_secondary_light">#6C757D</color>
+    <color name="text_hint_light">#ADB5BD</color>
+    <color name="divider_light">#DEE2E6</color>
+    <color name="icon_tint_light">#495057</color>
+
+    <!-- Dark Theme Colors -->
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="card_background_dark">#2D2D2D</color>
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_dark">#B3B3B3</color>
+    <color name="text_hint_dark">#757575</color>
+    <color name="divider_dark">#404040</color>
+    <color name="icon_tint_dark">#E0E0E0</color>
+
+    <!-- Status Colors -->
+    <color name="success">#28A745</color>
+    <color name="success_light">#D4EDDA</color>
+    <color name="success_dark">#155724</color>
+
+    <color name="warning">#FFC107</color>
+    <color name="warning_light">#FFF3CD</color>
+    <color name="warning_dark">#856404</color>
+
+    <color name="error">#DC3545</color>
+    <color name="error_light">#F8D7DA</color>
+    <color name="error_dark">#721C24</color>
+
+    <color name="info">#17A2B8</color>
+    <color name="info_light">#D1ECF1</color>
+    <color name="info_dark">#0C5460</color>
+
+    <!-- Gamification Colors -->
+    <color name="badge_gold">#FFD700</color>
+    <color name="badge_silver">#C0C0C0</color>
+    <color name="badge_bronze">#CD7F32</color>
+    <color name="xp_progress">#4CAF50</color>
+    <color name="level_background">#E8F5E8</color>
+
+    <!-- Social Colors -->
+    <color name="like_red">#E91E63</color>
+    <color name="comment_blue">#2196F3</color>
+    <color name="share_green">#4CAF50</color>
+
+    <!-- Notification Colors -->
+    <color name="notification_dot">#FF4444</color>
+    <color name="notification_background">#F5F5F5</color>
+    <color name="notification_unread">#E3F2FD</color>
+
+    <!-- Transparent Colors -->
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent_black">#80000000</color>
+    <color name="semi_transparent_white">#80FFFFFF</color>
+
+    <!-- Theme Color Aliases -->
+    <color name="background_color">@color/background_light</color>
+    <color name="surface_color">@color/surface_light</color>
+    <color name="primary_color">@color/primary_teal</color>
+    <color name="notification_unread_bg">@color/notification_unread</color>
+
+</resources>

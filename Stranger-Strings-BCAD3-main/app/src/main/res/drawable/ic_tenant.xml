@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Green circular background -->
+    <path
+        android:fillColor="#D8F3DC"
+        android:pathData="M32,0a32,32 0 1,0 0,64a32,32 0 1,0 0,-64"/>
+
+    <!-- Store icon -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M16,24h32v24H16V24zm0,-4c-2.2,0 -4,1.8 -4,4v24c0,2.2 1.8,4 4,4h32c2.2,0 4,-1.8 4,-4V24c0,-2.2 -1.8,-4 -4,-4H16zm8,0v-8h16v8H24z"/>
+</vector>

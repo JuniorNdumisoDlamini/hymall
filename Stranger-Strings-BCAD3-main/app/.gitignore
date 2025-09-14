@@ -1,0 +1,40 @@
+# Gradle files
+.gradle/
+build/
+*/build/
+
+# Local configuration
+local.properties
+*.iml
+.idea/
+.DS_Store
+
+# Keystore files (security)
+*.jks
+*.keystore
+
+# Firebase config
+google-services.json
+firebase-debug.log
+
+# Environment / API keys
+.env
+.env.*
+
+# Generated files
+captures/
+output.json
+
+# Android specific
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Log files
+*.log
+
+# OS-specific files
+Thumbs.db
+gradle.properties

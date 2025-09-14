@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HyMall</string>
+    <string name="app_subtitle">Jou Mall Gemeenskap</string>
+    <string name="powered_by_text">Aangedryf deur The Awareness Company</string>
+    <string name="app_logo">HyMall Logo</string>
+    <string name="loading_message">Laai jou mall-ervaring...</string>
+
+    <!-- Roles Screen Strings -->
+    <string name="choose_your_role">Kies jou rol</string>
+    <string name="select_how_using_hymall">Kies hoe jy HyMall gaan gebruik</string>
+
+    <!-- Role Options -->
+    <string name="consumer">Verbruiker</string>
+    <string name="consumer_description">Winkel in, verken, en deel jou mall-ervarings met die gemeenskap</string>
+    <string name="select_consumer">Kies Verbruiker</string>
+
+    <string name="tenant">Huurder</string>
+    <string name="tenant_description">Bestuur jou winkel, werk saam met kliënte, en groei jou besigheid</string>
+    <string name="select_tenant">Kies Huurder</string>
+
+    <string name="skip_for_now">Slaan oor vir eers</string>
+
+    <!-- Consumer Login Screen Strings -->
+    <string name="welcome_to_hymall">Welkom by HyMall</string>
+    <string name="connect_with_community">Skakel met jou mall-gemeenskap</string>
+    <string name="continue_with_google">Gaan voort met Google</string>
+    <string name="continue_with_apple">Gaan voort met Apple</string>
+    <string name="use_biometric_login">Gebruik biometriese aanmelding</string>
+    <string name="continue_as_guest">Gaan voort as gas</string>
+    <string name="terms_privacy_text">Deur voort te gaan, stem jy in met HyMall se Diensvoorwaardes en Privaatheidsbeleid</string>
+
+    <!-- Consumer Home Screen Strings -->
+    <string name="search_posts_stores_locations">Soek plasings, winkels, plekke...</string>
+    <string name="sarah_post_text">Ongelooflike koffie by die nuwe kafee op vlak 2! Die barista het perfekte latte-kuns gemaak ☕</string>
+    <string name="mike_post_text">Die parkering raak erger. Het 20 minute gewag vir ŉ plek op vlak 3.</string>
+
+    <!-- Map Activity Strings -->
+    <string name="map_view">Kaartaansig</string>
+    <string name="list">Lys</string>
+    <string name="map">Kaart</string>
+    <string name="all">Almal</string>
+    <string name="food_dining">Kos &amp; Etes</string>
+    <string name="shopping">Winkels</string>
+    <string name="facilities">Geriewe</string>
+    <string name="entertainment">Vermaak</string>
+    <string name="services">Dienste</string>
+    <string name="level_1_main_floor">Vlak 1 - Hoofvloer</string>
+    <string name="map_legend">Kaart Legende</string>
+    <string name="active_posts">Aktiewe plasings</string>
+    <string name="how_to_use_map">Hoe om die kaart te gebruik</string>
+    <string name="map_instructions">Tik op die rooi penne om plasing voorsienings te sien. Gebruik die kategorie-filters hier bo om spesifieke soorte plasings te vind.</string>
+    <string name="view_options">Aansigopsies</string>
+    <string name="view_mode">Aansigmodus</string>
+    <string name="categories">Kategorieë</string>
+    <string name="close">Sluit</string>
+    <string name="back">Terug</string>
+
+    <!-- Create Post Activity Strings -->
+    <string name="create_post">Skep Plasing</string>
+    <string name="post">Plasing</string>
+    <string name="share_experience_hint">Deel jou ervaring by die mall...</string>
+    <string name="add_photo_video">Voeg Foto/Video by</string>
+    <string name="add_photo_video_hint">Voeg foto of video by</string>
+    <string name="category">Kategorie</string>
+    <string name="select_category">Kies ŉ kategorie</string>
+    <string name="location">Ligging</string>
+    <string name="auto_detected_location">Outomaties opgespoor: Vlak 1, Hoof Ingang</string>
+    <string name="gps_location_detected">GPS ligging outomaties opgespoor</string>
+    <string name="how_feeling">Hoe voel jy?</string>
+    <string name="privacy">Privaatheid</string>
+    <string name="privacy_public">Openbaar</string>
+    <string name="privacy_public_desc">Almal kan hierdie plasing sien</string>
+    <string name="privacy_management">Slegs Mall Bestuur</string>
+    <string name="privacy_management_desc">Slegs bestuur kan dit sien</string>
+    <string name="privacy_anonymous">Anoniem</string>
+    <string name="privacy_anonymous_desc">Plaas anoniem aan almal</string>
+    <string name="offline_mode">Aflyn-modus</string>
+    <string name="offline_mode_desc">Geen internetverbinding. Jou plasing sal gestoor word en opgelaai word wanneer verbinding herstel is.</string>
+    <string name="events">Gebeurtenisse</string>
+    <string name="other">Ander</string>
+
+    <!-- Navigation Strings -->
+    <string name="home">Tuis</string>
+    <string name="badges">Kentekens</string>
+    <string name="settings">Instellings</string>
+
+    <!-- AI Chat Strings -->
+    <string name="ai_assistant">KI Assistent</string>
+    <string name="always_here_to_help">Altyd hier om te help</string>
+    <string name="ask_me_about_stores">Vra my oor winkels, roetes, aanbiedings...</string>
+    <string name="store_hours">Winkelure</string>
+    <string name="directions">Rigtings</string>
+    <string name="current_deals">Huidige Aanbiedings</string>
+    <string name="send_message">Stuur Boodskap</string>
+
+    <!-- About & Help Screen Strings -->
+    <string name="about_hymall">Oor HyMall</string>
+    <string name="about_description">HyMall is jou digitale metgesel vir mall ervaringe. Verbind met jou gemeenskap, ontdek nuwe winkels, en deel jou ervaringe met mede-shoppers.</string>
+    <string name="key_features">Sleutelfunksies</string>
+    <string name="feature_share_experiences">Deel jou ervaringe en verbind met die mall gemeenskap</string>
+    <string name="feature_interactive_map">Interaktiewe kaart om winkels te vind en te verken</string>
+    <string name="feature_ai_assistant">KI assistent om te help met rigtings en aanbevelings</string>
+    <string name="feature_offline_mode">Aflyn-modus om plasings te stoor wanneer verbinding verlore is</string>
+    <string name="how_to_use">Hoe om te gebruik</string>
+    <string name="how_to_use_description">Net verken die mall, deel jou ervaringe, en verbind met ander shoppers. Gebruik die kaart om winkels te vind en die KI assistent vir hulp.</string>
+    <string name="contact_support">Kontak Ondersteuning</string>
+
+    <string name="profile">Profiel</string>
+    <string name="change_photo">Verander Foto</string>
+    <string name="photo_format_hint">JPEG of PNG, maksimum 5MB</string>
+    <string name="display_name">Vertoonnaam</string>
+    <string name="email">E-pos</string>
+    <string name="role">Rol</string>
+   <!-- might duplicate but keep for consistency -->
+    <string name="language_region">Taal &amp; Streek</string>
+    <string name="language">Taal</string>
+
+    <!-- Security & Notifications Panel -->
+    <string name="security">Sekuriteit</string>
+    <string name="biometric_login">Biometriese Aanmelding</string>
+    <string name="biometric_description">Gebruik vingerafdruk of gesigsherkenning om aan te meld</string>
+    <string name="change_password">Verander Wagwoord</string>
+    <string name="notifications">Kennisgewings</string>
+    <string name="new_posts">Nuwe Plasings</string>
+    <string name="new_posts_description">Kry kennisgewings vir nuwe plasings</string>
+    <string name="comments_replies">Kommentaar &amp; Antwoorde</string>
+    <string name="comments_replies_description">Kennisgewings vir kommentaar of antwoorde</string>
+    <string name="reactions">Reaksies</string>
+    <string name="reactions_description">Kennisgewings vir reaksies op jou plasings</string>
+    <string name="management_notices">Bestuurs Kennisgewings</string>
+    <string name="management_notices_description">Belangrike kennisgewings van bestuur</string>
+
+    <string name="marketing_promotions_description">Ontvang promosie kennisgewings</string>
+    <string name="notification_sound">Kennisgewing Klank</string>
+
+    <!-- Appearance & More Panel -->
+    <string name="offline_posts">Aflyn Plasings</string>
+    <string name="sync_all">Sinchroniseer Alles</string>
+    <string name="offline_posts_info">Plasings gecreëer terwyl aflyn sal hier verskyn totdat hulle gesinkroniseer is.</string>
+    <string name="offline_posts_count">3 hangende plasings</string>
+    <string name="pending_posts">Hangende Plasings</string>
+    <string name="offline_post_status">Aflyn</string>
+    <string name="no_offline_posts">Geen Aflyn Plasings nie</string>
+    <string name="no_offline_posts_description">Jy het geen plasings gestoor aflyn nie. Enige plasings wat jy maak terwyl aflyn, sal hier verskyn.</string>
+
+    <string name="dark_mode_description">Skakel donker tema aan vir die app</string>
+
+    <!-- Badges -->
+    <string name="badges_title">Kentekens</string>
+    <string name="your_level">Jou Vlak</string>
+    <string name="mall_explorer">Mall Ontdekkingsreisiger</string>
+    <string name="level_5">Vlak 5</string>
+    <string name="next_level_progress">75% na Vlak 6</string>
+    <string name="your_stats">Jou Statistieke</string>
+    <string name="posts_shared">Plasings gedeel</string>
+    <string name="stores_visited">Winkels besoek</string>
+    <string name="money_saved">Geld Bespaar</string>
+    <string name="likes_received">Likes Ontvang</string>
+    <string name="your_badges">Jou Kentekens</string>
+    <string name="leaderboard">Leierbord</string>
+    <string name="available_rewards">Beskikbare Belonings</string>
+    <string name="version_info">1</string>
+</resources>

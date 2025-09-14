@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/progress_color</item>
+        <item name="colorPrimaryDark">@color/logo_gradient_start</item>
+        <item name="colorAccent">@color/progress_color</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <!-- Rounded FAB corners -->
+    <style name="RoundedFAB" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.RoundedFAB</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.RoundedFAB" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <!-- Splash screen theme -->
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/splash_background</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

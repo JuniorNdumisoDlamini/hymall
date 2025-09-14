@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HyMall</string>
+    <string name="app_subtitle">Your Mall Community</string>
+    <string name="powered_by_text">Powered by the awareness company</string>
+    <string name="app_logo">HyMall Logo</string>
+    <string name="loading_message">Loading your mall experience...</string>
+
+    <!-- Roles Screen Strings -->
+    <string name="choose_your_role">Choose Your Role</string>
+    <string name="select_how_using_hymall">Select how you\'ll be using HyMall</string>
+
+    <!-- Role Options -->
+    <string name="consumer">Consumer</string>
+    <string name="consumer_description">Shop, explore, and share your mall experiences with the community</string>
+    <string name="select_consumer">Select Consumer</string>
+
+    <string name="tenant">Tenant</string>
+    <string name="tenant_description">Manage your store, engage with customers, and grow your business</string>
+    <string name="select_tenant">Select Tenant</string>
+
+    <string name="skip_for_now">Skip for now</string>
+
+    <!-- Consumer Login Screen Strings -->
+    <string name="welcome_to_hymall">Welcome to HyMall</string>
+    <string name="connect_with_community">Connect with your mall community</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="continue_with_apple">Continue with Apple</string>
+    <string name="use_biometric_login">Use Biometric Login</string>
+    <string name="continue_as_guest">Continue as Guest</string>
+    <string name="terms_privacy_text">By continuing, you agree to HyMall\'s Terms of Service and Privacy Policy</string>
+
+    <!-- Consumer Home Screen Strings -->
+    <string name="search_posts_stores_locations">Search posts, stores, locations...</string>
+    <string name="sarah_post_text">Amazing coffee at the new cafe on level 2! The barista made perfect latte art ☕</string>
+    <string name="mike_post_text">The parking situation is getting worse. Waited 20 minutes for a spot on level 3.</string>
+
+    <!-- Map Activity Strings -->
+    <string name="map_view">Map View</string>
+    <string name="list">List</string>
+    <string name="map">Map</string>
+    <string name="all">All</string>
+    <string name="food_dining">Food &amp; Dining</string>
+    <string name="shopping">Shopping</string>
+    <string name="facilities">Facilities</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="services">Services</string>
+    <string name="level_1_main_floor">Level 1 - Main Floor</string>
+    <string name="map_legend">Map Legend</string>
+    <string name="active_posts">Active Posts</string>
+    <string name="how_to_use_map">How to use the map</string>
+    <string name="map_instructions">Tap on the red pins to see post previews. Use the category filters above to find specific types of posts.</string>
+    <string name="view_options">View Options</string>
+    <string name="view_mode">View Mode</string>
+    <string name="categories">Categories</string>
+    <string name="close">Close</string>
+    <string name="back">Back</string>
+
+    <!-- Create Post Activity Strings -->
+    <string name="create_post">Create Post</string>
+    <string name="post">Post</string>
+    <string name="share_experience_hint">Share your experience at the mall...</string>
+    <string name="add_photo_video">Add Photo/Video</string>
+    <string name="add_photo_video_hint">Add photo or video</string>
+    <string name="category">Category</string>
+    <string name="select_category">Select a category</string>
+    <string name="location">Location</string>
+    <string name="auto_detected_location">Auto-detected: Level 1, Main Entrance</string>
+    <string name="gps_location_detected">GPS location automatically detected</string>
+    <string name="how_feeling">How are you feeling?</string>
+    <string name="privacy">Privacy</string>
+    <string name="privacy_public">Public</string>
+    <string name="privacy_public_desc">Everyone can see this post</string>
+    <string name="privacy_management">Mall Management Only</string>
+    <string name="privacy_management_desc">Only management can see this</string>
+    <string name="privacy_anonymous">Anonymous</string>
+    <string name="privacy_anonymous_desc">Post anonymously to everyone</string>
+    <string name="offline_mode">Offline Mode</string>
+    <string name="offline_mode_desc">No internet connection. Your post will be saved and uploaded when connection is restored.</string>
+    <string name="events">Events</string>
+    <string name="other">Other</string>
+
+    <!-- Navigation Strings -->
+    <string name="home">Home</string>
+    <string name="badges">Badges</string>
+    <string name="settings">Settings</string>
+
+    <!-- AI Chat Strings -->
+    <string name="ai_assistant">AI Assistant</string>
+    <string name="always_here_to_help">Always here to help</string>
+    <string name="ask_me_about_stores">Ask me about stores, directions, deals...</string>
+    <string name="store_hours">Store Hours</string>
+    <string name="directions">Directions</string>
+    <string name="current_deals">Current Deals</string>
+    <string name="send_message">Send Message</string>
+
+    <!-- About & Help Screen Strings -->
+    <string name="about_hymall">About HyMall</string>
+    <string name="about_description">HyMall is your digital companion for mall experiences. Connect with your community, discover new stores, and share your experiences with fellow shoppers.</string>
+    <string name="key_features">Key Features</string>
+    <string name="feature_share_experiences">Share your experiences and connect with the mall community</string>
+    <string name="feature_interactive_map">Interactive map to navigate and discover stores</string>
+    <string name="feature_ai_assistant">AI assistant to help with directions and recommendations</string>
+    <string name="feature_offline_mode">Offline mode to save posts when connection is lost</string>
+    <string name="how_to_use">How to Use</string>
+    <string name="how_to_use_description">Simply explore the mall, share your experiences, and connect with other shoppers. Use the map to find stores and the AI assistant for help.</string>
+    <string name="contact_support">Contact Support</string>
+
+    <string name="profile">Profile</string>
+    <string name="change_photo">Change Photo</string>
+    <string name="photo_format_hint">JPEG or PNG, max 5MB</string>
+    <string name="display_name">Display Name</string>
+    <string name="email">Email</string>
+    <string name="role">Role</string>
+
+    <string name="language_region">Language &amp; Region</string>
+    <string name="language">Language</string>
+
+    <!-- Security & Notifications Panel -->
+    <string name="security">Security</string>
+    <string name="biometric_login">Biometric Login</string>
+    <string name="biometric_description">Use fingerprint or face recognition to login</string>
+    <string name="change_password">Change Password</string>
+    <string name="notifications">Notifications</string>
+    <string name="new_posts">New Posts</string>
+    <string name="new_posts_description">Get notified for new posts</string>
+    <string name="comments_replies">Comments &amp; Replies</string>
+    <string name="comments_replies_description">Notifications for comments or replies</string>
+    <string name="reactions">Reactions</string>
+    <string name="reactions_description">Notifications for reactions on your posts</string>
+    <string name="management_notices">Management Notices</string>
+    <string name="management_notices_description">Important notices from management</string>
+
+    <string name="marketing_promotions_description">Receive promotional notifications</string>
+    <string name="notification_sound">Notification Sound</string>
+
+    <!-- Appearance & More Panel -->
+    <string name="offline_posts">Offline Posts</string>
+    <string name="sync_all">Sync All</string>
+    <string name="offline_posts_info">Posts created while offline will appear here until they are synced.</string>
+    <string name="offline_posts_count">3 pending posts</string>
+    <string name="pending_posts">Pending Posts</string>
+    <string name="offline_post_status">Offline</string>
+    <string name="no_offline_posts">No Offline Posts</string>
+    <string name="no_offline_posts_description">You don’t have any posts saved offline. Any posts you create while offline will appear here.</string>
+
+    <string name="dark_mode_description">Enable dark theme for the app</string>
+    <!-- Badges -->
+    <string name="badges_title">Badges</string>
+    <string name="your_level">Your Level</string>
+    <string name="mall_explorer">Mall Explorer</string>
+    <string name="level_5">Level 5</string>
+    <string name="next_level_progress">75% towards Level 6</string>
+    <string name="your_stats">Your Stats</string>
+    <string name="posts_shared">Posts Shared</string>
+    <string name="stores_visited">Stores Visited</string>
+    <string name="money_saved">Money Saved</string>
+    <string name="likes_received">Likes Received</string>
+    <string name="your_badges">Your Badges</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="available_rewards">Available Rewards</string>
+    <string name="version_info">1</string>
+    <string name="about_help">About help\n</string>
+    <string name="sign_out">sign out\n</string>
+    <string name="save_changes">save changes\n</string>
+    <string name="more">more\n</string>
+    <string name="marketing_promotions">marketing promotions\n</string>
+    <string name="appearance">appearance\n</string>
+    <string name="dark_mode">Dark Mode\n</string>
+</resources>

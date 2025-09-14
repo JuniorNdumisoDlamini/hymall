@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HyMall</string>
+    <string name="app_subtitle">Umphakathi wakho weMall</string>
+    <string name="powered_by_text">Iphethwe yi The Awareness Company</string>
+    <string name="app_logo">Ilogo yeHyMall</string>
+    <string name="loading_message">Silayisha isipiliyoni sakho semall...</string>
+
+    <!-- Roles Screen Strings -->
+    <string name="choose_your_role">Khetha Indima Yakho</string>
+    <string name="select_how_using_hymall">Khetha indlela ozosebenzisa ngayo iHyMall</string>
+
+    <!-- Role Options -->
+    <string name="consumer">Umthengi</string>
+    <string name="consumer_description">Thenga, hlola, futhi wabelane ngolwazi lwakho lweMall nomphakathi</string>
+    <string name="select_consumer">Khetha Umthengi</string>
+
+    <string name="tenant">Umqashi</string>
+    <string name="tenant_description">Phatha isitolo sakho, xhumana namakhasimende, futhi ukhule ibhizinisi lakho</string>
+    <string name="select_tenant">Khetha Umqashi</string>
+
+    <string name="skip_for_now">Sidlula okwamanje</string>
+
+    <!-- Consumer Login Screen Strings -->
+    <string name="welcome_to_hymall">Wamukelekile eHyMall</string>
+    <string name="connect_with_community">Xhuma nomphakathi wakho womall</string>
+    <string name="continue_with_google">Qhubeka nge Google</string>
+    <string name="continue_with_apple">Qhubeka nge Apple</string>
+    <string name="use_biometric_login">Sebenzisa ukungena nge-Biometric</string>
+    <string name="continue_as_guest">Qhubeka njengomngeni</string>
+    <string name="terms_privacy_text">Ngokuqhubeka, uyavuma imigomo sevisi ye-HyMall nemigomo yobumfihlo</string>
+
+    <!-- Consumer Home Screen Strings -->
+    <string name="search_posts_stores_locations">Sesha okuthunyelwe, izitolo, izindawo...</string>
+    <string name="sarah_post_text">Ikhofi elimnandi e-kafeni entsha kwakule Level 2! Ibarista wenze ubuciko be-latte obuphelele ☕</string>
+    <string name="mike_post_text">Izimo zokupaka seziphansi. Silinde imizuzu eyi-20 indawo ku-Level 3.</string>
+
+    <!-- Map Activity Strings -->
+    <string name="map_view">Ukubuka Imephu</string>
+    <string name="list">Uhlu</string>
+    <string name="map">Imephu</string>
+    <string name="all">Konke</string>
+    <string name="food_dining">Ukudla &amp; Ukudlela</string>
+    <string name="shopping">Ukuhweba</string>
+    <string name="facilities">Izakhiwo</string>
+    <string name="entertainment">Ukuzijabulisa</string>
+    <string name="services">Isevisi</string>
+    <string name="level_1_main_floor">ILevel 1 - Phansi Omkhulu</string>
+    <string name="map_legend">Ilegende Yemephu</string>
+    <string name="active_posts">Okuthunyelwe Okusebenzayo</string>
+    <string name="how_to_use_map">Ungayisebenzisa kanjani imephu</string>
+    <string name="map_instructions">Thinta iziphini ezibomvu ukuze ubone ukubuka kwesithombe sokuthunyelwe. Sebenzisa izihlungi zohlobo olungezansi phezulu ukuthola izinhlobo ezithile zokuthunyelwe.</string>
+    <string name="view_options">Izinketho Zokubuka</string>
+    <string name="view_mode">Imodi Yokubuka</string>
+    <string name="categories">Izigaba</string>
+    <string name="close">Vala</string>
+    <string name="back">Emuva</string>
+
+    <!-- Create Post Activity Strings -->
+    <string name="create_post">Dala Okuthunyelwe</string>
+    <string name="post">Thumela</string>
+    <string name="share_experience_hint">Yabelana ngolwazi lwakho e-mall...</string>
+    <string name="add_photo_video">Engeza Isithombe/IVidiwo</string>
+    <string name="add_photo_video_hint">Engeza isithombe noma ividiyo</string>
+    <string name="category">Isigaba</string>
+    <string name="select_category">Khetha isigaba</string>
+    <string name="location">Indawo</string>
+    <string name="auto_detected_location">Kutholakale ngokuzenzakalelayo: ILevel 1, Umnyango Omkhulu</string>
+    <string name="gps_location_detected">Indawo ye-GPS itholakale ngokuzenzakalelayo</string>
+    <string name="how_feeling">Uzizwa kanjani?</string>
+    <string name="privacy">Ubumfihlo</string>
+    <string name="privacy_public">Umphakathi Wonke</string>
+    <string name="privacy_public_desc">Wonke umuntu angabona lokhu kuthunyelwe</string>
+    <string name="privacy_management">Kuphela Abaphathi BeMall</string>
+    <string name="privacy_management_desc">Kuphela abaphathi abangabona lokhu</string>
+    <string name="privacy_anonymous">Okungaziwa</string>
+    <string name="privacy_anonymous_desc">Thumela okungaziwa kuwo wonke umuntu</string>
+    <string name="offline_mode">Imodi Engaxhunyiwe</string>
+    <string name="offline_mode_desc">Ayikho inethiwekhi ye-internet. Okuthunyelwe kwakho kuzogcinwa futhi kuthunyelwe lapho uxhumano lobuyisiwe.</string>
+    <string name="events">Imicimbi</string>
+    <string name="other">Okunye</string>
+
+    <!-- Navigation Strings -->
+    <string name="home">Ikhaya</string>
+    <string name="badges">Amabhajethi</string>
+    <string name="settings">Izilungiselelo</string>
+
+    <!-- AI Chat Strings -->
+    <string name="ai_assistant">Umncedisi we-AI</string>
+    <string name="always_here_to_help">Ngihlala lapha ukukusiza</string>
+    <string name="ask_me_about_stores">Buze kimina ngezitolo, imiyalelo, amathuba...</string>
+    <string name="store_hours">Amahora Ezitolo</string>
+    <string name="directions">Imiyalo</string>
+    <string name="current_deals">Amathuba Akhona</string>
+    <string name="send_message">Thumela Umyalezo</string>
+
+    <!-- About & Help Screen Strings -->
+    <string name="about_hymall">Mayelana neHyMall</string>
+    <string name="about_description">IHyMall ungumlingani wakho wedijithali wokuhlangenwe nakho kwe-mall. Xhuma nomphakathi wakho, thola izitolo ezintsha, futhi wabelane ngezinto zakho nabanye abathengi.</string>
+    <string name="key_features">Izici Eziyinqaba</string>
+    <string name="feature_share_experiences">Yabelana ngezinto zakho futhi uxhumane nomphakathi we-mall</string>
+    <string name="feature_interactive_map">Imephu esebenzisanayo ukuze uthole izitolo futhi uhlole</string>
+    <string name="feature_ai_assistant">Umncedisi we-AI ukusiza ngemiyalelo nokuncoma</string>
+    <string name="feature_offline_mode">Imodi engaxhunyiwe ukuze okuthunyelwe kugcinwe lapho uxhumano luphukile</string>
+    <string name="how_to_use">Indlela Yokusebenzisa</string>
+    <string name="how_to_use_description">Vele hlola i-mall, wabelane ngezinto zakho, futhi uxhumane nabanye abathengi. Sebenzisa imephu ukuthola izitolo nomncedisi we-AI uma udinga usizo.</string>
+    <string name="contact_support">Xhumana Nosizo</string>
+
+    <string name="profile">Iphrofayela</string>
+    <string name="change_photo">Shintsha Isithombe</string>
+    <string name="photo_format_hint">JPEG noma PNG, ubukhulu obungenamaphesenti angu-5 MB</string>
+    <string name="display_name">Igama Lokubonisa</string>
+    <string name="email">I-imeyili</string>
+    <string name="role">Indima</string>
+
+    <string name="language_region">Ulimi &amp; Isifunda</string>
+    <string name="language">Ulimi</string>
+
+    <!-- Security & Notifications Panel -->
+    <string name="security">Ukuvikeleka</string>
+    <string name="biometric_login">Ngena nge-Biometric</string>
+    <string name="biometric_description">Sebenzisa umunwe noma ubuso ukuze ungene</string>
+    <string name="change_password">Shintsha Iphasiwedi</string>
+    <string name="notifications">Izaziso</string>
+    <string name="new_posts">Okuthunyelwe Okusha</string>
+    <string name="new_posts_description">Thola izaziso zokuthunyelwe ezintsha</string>
+    <string name="comments_replies">Amazwana &amp; Izimpendulo</string>
+    <string name="comments_replies_description">Izaziso zamazwana noma izimpendulo</string>
+    <string name="reactions">Impendulo</string>
+    <string name="reactions_description">Izaziso zempendulo ekuthunyelweni kwakho</string>
+    <string name="management_notices">Izaziso Zobuphathi</string>
+    <string name="management_notices_description">Izaziso ezibalulekile ezivela kubaphathi</string>
+
+    <string name="marketing_promotions_description">Thola izaziso zezikhuthazo zokumaketha</string>
+    <string name="notification_sound">Umsindo Wezaziso</string>
+
+    <!-- Appearance & More Panel -->
+    <string name="offline_posts">Okuthunyelwe Okungaxhunyiwe</string>
+    <string name="sync_all">Hlanganisa Konke</string>
+    <string name="offline_posts_info">Okuthunyelwe okudalwe ngesikhathi ungaxhunyiwe kuzovela lapha kuze kube yilapho zihlanganisiwe.</string>
+    <string name="offline_posts_count">3 okuthunyelwe okulindile</string>
+    <string name="pending_posts">Okulindile okuthunyelwe</string>
+    <string name="offline_post_status">Ungaxhunyiwe</string>
+    <string name="no_offline_posts">Akukho Okuthunyelwe Okungaxhunyiwe</string>
+    <string name="no_offline_posts_description">Awunawo okuthunyelwe okulondolozwe ngesikhathi ungaxhunyiwe. Noma yiziphi okuthunyelwe okudala ngesikhathi ungaxhunyiwe kuzovela lapha.</string>
+
+    <string name="dark_mode_description">Vula itimu emnyama ye-app</string>
+
+    <!-- Badges -->
+    <string name="badges_title">Amabhagesi</string>
+    <string name="your_level">Izinga Lakho</string>
+    <string name="mall_explorer">Umhloli weMall</string>
+    <string name="level_5">Izinga 5</string>
+    <string name="next_level_progress">75% uya eZingeni 6</string>
+    <string name="your_stats">Izibalo Zakho</string>
+    <string name="posts_shared">Okuthunyelwe Okuxhunyiwe</string>
+    <string name="stores_visited">Izitolo Ezivakashelwe</string>
+    <string name="money_saved">Imali Egciniwe</string>
+    <string name="likes_received">Okuthandwe Okuwutholiwe</string>
+    <string name="your_badges">Amabhagesi Akho</string>
+    <string name="leaderboard">Uhlu Lwezikhundla</string>
+    <string name="available_rewards">Imiklomelo Ekhona</string>
+    <string name="version_info">1</string>
+</resources>

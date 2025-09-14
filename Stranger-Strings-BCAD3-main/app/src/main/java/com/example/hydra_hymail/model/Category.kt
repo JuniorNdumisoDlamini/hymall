@@ -1,0 +1,15 @@
+package com.example.hydra_hymail.model
+
+enum class Category {
+    PARKING_ACCESS,
+    SAFETY_SECURITY,
+    INFRASTRUCTURE,
+    COMFORT,
+    PROMOTIONS_EVENTS,
+    STORE_EXPERIENCE,
+    TRANSPORT_ROUTES,
+    SUGGESTIONS_SHOUTOUTS,
+    LOST_FOUND,
+    TENANT_ISSUES,
+    OTHER
+}
