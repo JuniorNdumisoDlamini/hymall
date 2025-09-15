@@ -5,11 +5,69 @@
     <color name="primary_text">#2C3E50</color>
     <color name="secondary_text">#7F8C8D</color>
     <color name="footer_text">#95A5A6</color>
+    <color name="warning_orange">#AC560A</color>
+    <!-- Primary Colors -->
+    <color name="success_green">#E82D931B</color>
+    <color name="primary_variant">#4F46E5</color>
+    <color name="secondary">#EC4899</color>
+    <color name="secondary_variant">#DB2777</color>
+    <color name="error_red">#E41021</color>
+    <color name="primary_blue">#17F1DF</color>
+    <!-- Background Colors -->
+    <color name="background">#F8FAFC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F1F5F9</color>
+    <!-- Message status colors -->
+    <color name="message_read">#4CAF50</color> <!-- green for read -->
+
+    <!-- Text hint color -->
+    <color name="text_hint">#9E9E9E</color> <!-- grey hint text -->
+
+    <!-- Placeholder background -->
+    <color name="placeholder_bg">#F5F5F5</color> <!-- light gray bg -->
+
+    <color name="status_active">#4CAF50</color> <!-- green for active status -->
+    <color name="info_blue">#1976D2</color>
+    <color name="info_background">#E3F2FD</color> <!-- light blue background -->
+
+    <!-- Stroke gray -->
+    <color name="stroke_gray">#BDBDBD</color> <!-- border color -->
+
+    <!-- Secondary light -->
+    <color name="secondary_light">#E1F5FE</color> <!-- pale blue -->
+    <!-- Text Colors -->
+    rating_star
+    <color name="rating_star">#FFC107</color>
+    <color name="on_surface">#1E293B</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <!-- Accent Colors -->
+
+    <color name="accent_green">#10B981</color>
+    <color name="accent_orange">#F59E0B</color>
+    <color name="accent_red">#EF4444</color>
+
+    <!-- System Colors -->
+
+    <color name="overlay">#80000000</color>
+
+    <!-- Category Colors -->
+    <color name="category_food">#F59E0B</color>
+    <color name="category_shopping">#EC4899</color>
+    <color name="category_entertainment">#8B5CF6</color>
+    <color name="category_facilities">#10B981</color>
+    <color name="category_events">#F97316</color>
+    <color name="category_services">#3B82F6</color>
+    <color name="category_other">#6B7280</color>
 
     <color name="divider_color">#95A5A6</color>
     <!-- Progress Bar Colors -->
     <color name="progress_color">#3498DB</color>
     <color name="progress_background">#BDC3C7</color>
+    <color name="hymall_purple">#8B5CF6</color>
+    <color name="hymall_deep_purple">#7C3AED</color>
+    <color name="hymall_blue">#3B82F6</color>
+    <color name="hymall_cyan">#06B6D4</color>
 
     <!-- Logo Colors -->
     <color name="logo_gradient_start">#9B59B6</color>

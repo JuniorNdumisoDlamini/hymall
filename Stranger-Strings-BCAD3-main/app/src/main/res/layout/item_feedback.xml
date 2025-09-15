@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/feedback_item_background"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp">
+
+    <!-- User Info -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="8dp">
+
+        <FrameLayout
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/avatar_circle_background"
+            android:clipToOutline="true">
+
+            <ImageView
+                android:id="@+id/iv_user_avatar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/placeholder"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true" />
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="12dp">
+
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="John Smith"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:id="@+id/tv_feedback_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 hours ago"
+                android:textSize="12sp"
+                android:textColor="@color/text_secondary" />
+
+        </LinearLayout>
+
+        <!-- Rating -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/ic_star"
+                app:tint="@color/rating_star" />
+
+            <TextView
+                android:id="@+id/tv_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.5"
+                android:textSize="12sp"
+                android:textColor="@color/text_primary"
+                android:layout_marginStart="4dp" />
+
+        </LinearLayout>
+
+        <!-- Sentiment Indicator -->
+        <View
+            android:id="@+id/sentiment_indicator"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:background="@drawable/sentiment_positive_dot"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+    <!-- Feedback Text -->
+    <TextView
+        android:id="@+id/tv_feedback_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Great service and friendly staff! The store is well organized and has everything I need."
+        android:textSize="14sp"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <TextView
+            android:id="@+id/btn_reply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reply"
+            android:textSize="12sp"
+            android:textColor="@color/primary_blue"
+            android:textStyle="bold"
+            android:background="?attr/selectableItemBackground"
+            android:padding="8dp"
+            android:layout_marginEnd="16dp" />
+
+        <TextView
+            android:id="@+id/btn_mark_resolved"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mark Resolved"
+            android:textSize="12sp"
+            android:textColor="@color/success_green"
+            android:textStyle="bold"
+            android:background="?attr/selectableItemBackground"
+            android:padding="8dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

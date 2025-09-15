@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/splash_background"
+    android:background="@drawable/gradient_primary"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="32dp">
@@ -25,7 +25,7 @@
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_centerInParent="true"
-            android:src="@drawable/ic_location_pin"
+            android:src="@drawable/hymall_icon"
             android:contentDescription="@string/app_logo" />
 
     </RelativeLayout>

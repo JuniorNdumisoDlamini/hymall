@@ -92,6 +92,18 @@
             android:theme="@style/AppTheme"
             android:screenOrientation="portrait" />
 
+        <activity
+            android:name=".TenantLoginActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".TenantRegistrationActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait" />
+
         <!-- AI Chat Activity -->
         <activity
             android:name=".AiChatActivity"

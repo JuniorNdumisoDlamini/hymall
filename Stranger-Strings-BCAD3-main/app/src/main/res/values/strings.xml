@@ -167,4 +167,56 @@
     <string name="marketing_promotions">marketing promotions\n</string>
     <string name="appearance">appearance\n</string>
     <string name="dark_mode">Dark Mode\n</string>
+
+    <!-- Tenant Login Screen Strings -->
+    <string name="tenant_login">Tenant Login</string>
+
+    <string name="password">Password</string>
+    <string name="tenant_email_hint">your.email@store.com</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="store_information">Store Information</string>
+    <string name="store_name_hint">e.g. Fashion Forward</string>
+    <string name="store_number_hint">e.g. S-204</string>
+    <string name="department_hint">e.g. Fashion &amp; Apparel</string>
+    <string name="sign_in_as_tenant">Sign in as Tenant</string>
+    <string name="or_continue_with">OR CONTINUE WITH</string>
+    <string name="google">Google</string>
+    <string name="apple">Apple</string>
+    <string name="need_help_contact_support">Need help? Contact mall management</string>
+
+    !-- Post Content -->
+    <string name="sample_user_name">Sarah Johnson</string>
+    <string name="sample_location">Level 2, North Wing • 259d ago</string>
+    <string name="sample_time">2h ago</string>
+    <string name="sample_post_content">Amazing coffee at the new café on Level 2! The barista made perfect latte art ☕</string>
+    <string name="sample_like_count">24</string>
+    <string name="sample_comment_count">8</string>
+
+
+    <!-- Status Bar -->
+    <string name="battery_level">M</string>
+
+    <!-- Actions -->
+    <string name="like">Like</string>
+    <string name="comment">Comment</string>
+    <string name="share">Share</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_user_avatar">User avatar</string>
+    <string name="cd_post_image">Post image</string>
+    <string name="cd_like_button">Like post</string>
+    <string name="cd_comment_button">Comment on post</string>
+    <string name="cd_share_button">Share post</string>
+    <string name="cd_filter_button">Filter categories</string>
+    <string name="cd_search_button">Search</string>
+
+    <!-- Added missing color resources -->
+    <string name="ai_primary">AI Primary Color</string>
+    <!-- Tenant Registration Screen Strings -->
+    <string name="tenant_registration">Tenant Registration</string>
+    <string name="register_as_tenant">Register as Tenant</string>
+    <string name="already_have_account">Already have an account? Sign in</string>
+    <string name="need_account">Don\'t have an account? Register here</string>
+    <string name="email_hint">your.email@store.com</string>
+    <string name="contact_mall_management">Need help? Contact mall management</string>T
 </resources>

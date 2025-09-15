@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="20dp"
-    android:height="20dp"
+    android:width="24dp"
+    android:height="24dp"
     android:viewportWidth="24"
     android:viewportHeight="24">
 
-    <!-- Paper airplane shape -->
+    <!-- 3 bars like a simple analytics icon -->
     <path
         android:fillColor="#000000"
-        android:pathData="M2,21L23,12 2,3 2,10l15,2-15,2z"/>
+        android:pathData="M4,17h2v3H4v-3zM9,13h2v7H9v-7zM14,9h2v11h-2V9zM19,5h2v15h-2V5z"/>
 </vector>
