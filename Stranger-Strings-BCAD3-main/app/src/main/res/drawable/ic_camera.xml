@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- background -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#E8F5E9"/> <!-- pale green -->
+            <corners android:radius="6dp"/>
+        </shape>
+    </item>
+
+    <!-- camera body -->
+    <item android:left="6dp" android:right="6dp" android:top="8dp" android:bottom="8dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#424242"/>
+            <corners android:radius="4dp"/>
+        </shape>
+    </item>
+
+    <!-- lens (white circle with dark inner ring) -->
+    <item android:gravity="center">
+        <shape android:shape="oval">
+            <size android:width="22dp" android:height="22dp"/>
+            <solid android:color="#FFFFFF"/>
+        </shape>
+    </item>
+
+    <item android:gravity="center" android:left="1dp" android:right="1dp" android:top="1dp" android:bottom="1dp">
+        <shape android:shape="oval">
+            <size android:width="18dp" android:height="18dp"/>
+            <solid android:color="#616161"/>
+        </shape>
+    </item>
+
+    <!-- small flash rectangle -->
+    <item android:gravity="right|top" android:right="8dp" android:top="8dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFD54F"/>
+            <size android:width="8dp" android:height="6dp"/>
+            <corners android:radius="2dp"/>
+        </shape>
+    </item>
+</layer-list>

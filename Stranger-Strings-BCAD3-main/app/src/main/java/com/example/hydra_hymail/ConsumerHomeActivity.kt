@@ -99,10 +99,10 @@ class ConsumerHomeActivity : AppCompatActivity() {
             startActivity(intent)
         }
         
-        /*badgesNav.setOnClickListener {
+        badgesNav.setOnClickListener {
             val intent = Intent(this, BadgesActivity::class.java)
             startActivity(intent)
-        }*/
+        }
         
         settingsNav.setOnClickListener {
             val intent = Intent(this, SettingsActivity::class.java)

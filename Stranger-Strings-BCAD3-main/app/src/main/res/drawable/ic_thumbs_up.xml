@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- background -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#E3F2FD"/> <!-- pale blue -->
+            <corners android:radius="6dp"/>
+        </shape>
+    </item>
+
+    <!-- palm rectangle -->
+    <item android:left="6dp" android:top="8dp" android:bottom="6dp" android:right="10dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#1976D2"/>
+            <corners android:radius="4dp"/>
+        </shape>
+    </item>
+
+    <!-- thumb circle -->
+    <item android:left="10dp" android:top="2dp">
+        <shape android:shape="oval">
+            <size android:width="12dp" android:height="12dp"/>
+            <solid android:color="#1976D2"/>
+        </shape>
+    </item>
+
+    <!-- small accent highlight -->
+    <item android:gravity="right|top" android:right="6dp" android:top="6dp">
+        <shape android:shape="oval">
+            <size android:width="6dp" android:height="6dp"/>
+            <solid android:color="#BBDEFB"/>
+        </shape>
+    </item>
+
+</layer-list>

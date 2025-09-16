@@ -20,9 +20,14 @@
     <!-- Message status colors -->
     <color name="message_read">#4CAF50</color> <!-- green for read -->
 
+    <!-- thumb should be a solid color when ON; track is usually a lighter tinted color -->
+    <color name="switch_thumb_color">#1E88E5</color>  <!-- blue thumb when checked -->
+    <color name="switch_track_color">#90CAF9</color>  <!-- light blue track when checked -->
     <!-- Text hint color -->
     <color name="text_hint">#9E9E9E</color> <!-- grey hint text -->
-
+    <color name="badge_earned_bg">#FFF8E1</color>     <!-- pale cream / earned badge background -->
+    <color name="level_badge_bg">#FFF3CD</color>
+    <color name="disabled_surface">#F3F5F7</color>
     <!-- Placeholder background -->
     <color name="placeholder_bg">#F5F5F5</color> <!-- light gray bg -->
 

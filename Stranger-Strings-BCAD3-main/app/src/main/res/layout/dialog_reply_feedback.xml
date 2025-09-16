@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/avatar_circle_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reply to Customer Feedback"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Original Feedback Preview -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/background_light"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Feedback:"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tv_original_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Original feedback text will appear here..."
+            android:textSize="13sp"
+            android:textColor="@color/text_primary" />
+
+    </LinearLayout>
+
+    <!-- Reply Input -->
+    <EditText
+        android:id="@+id/et_reply_message"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:hint="Type your reply to the customer..."
+        android:textSize="14sp"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary"
+        android:background="@drawable/search_background"
+        android:padding="16dp"
+        android:gravity="top"
+        android:inputType="textMultiLine|textCapSentences"
+        android:maxLength="300"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Quick Reply Templates -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quick Templates:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/template_thank_you"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thank you for your feedback! We appreciate your input."
+            android:textSize="12sp"
+            android:textColor="@color/primary"
+            android:background="@drawable/template_background"
+            android:padding="8dp"
+            android:layout_marginBottom="4dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/template_apologize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We apologize for any inconvenience. We'll work to improve this."
+            android:textSize="12sp"
+            android:textColor="@color/primary"
+            android:background="@drawable/template_background"
+            android:padding="8dp"
+            android:layout_marginBottom="4dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/template_follow_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We'd love to discuss this further. Please contact us directly."
+            android:textSize="12sp"
+            android:textColor="@color/primary"
+            android:background="@drawable/template_background"
+            android:padding="8dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancel_reply"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:textColor="@color/text_secondary"
+            android:background="@drawable/button_outline"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btn_send_reply"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Send Reply"
+            android:textColor="@color/white"
+            android:background="@drawable/button_primary"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -71,11 +71,13 @@
             <!-- Profile picture -->
             <ImageView
                 android:id="@+id/btn_profile"
-                android:layout_width="32dp"
-                android:layout_height="32dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:src="@drawable/placeholder"
+                android:scaleType="centerCrop"
                 android:background="@drawable/profile_circle_background"
-                android:scaleType="centerCrop" />
+                android:clipToOutline="true"
+                android:padding="2dp"/>
 
         </LinearLayout>
 

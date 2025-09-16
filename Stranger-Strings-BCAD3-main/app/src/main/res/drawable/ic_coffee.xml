@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- rounded square background -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFF3E0"/> <!-- pale cream -->
+            <corners android:radius="6dp"/>
+        </shape>
+    </item>
+
+    <!-- cup body -->
+    <item android:left="6dp" android:right="14dp" android:top="8dp" android:bottom="14dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#6D4C41"/> <!-- coffee brown -->
+            <corners android:radius="6dp"/>
+        </shape>
+    </item>
+
+    <!-- cup rim (lighter) -->
+    <item android:left="6dp" android:right="14dp" android:top="6dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#EFEBE9"/>
+            <size android:height="6dp"/>
+            <corners android:radius="4dp"/>
+        </shape>
+    </item>
+
+    <!-- handle (circle inset to the right) -->
+    <item android:gravity="right|center_vertical" android:right="6dp">
+        <shape android:shape="oval">
+            <size android:width="18dp" android:height="18dp"/>
+            <solid android:color="#FFF3E0"/>
+        </shape>
+    </item>
+
+    <!-- steam lines (thin rectangles) -->
+    <item android:top="4dp" android:left="10dp">
+        <shape>
+            <size android:width="2dp" android:height="12dp"/>
+            <solid android:color="#BCAAA4"/>
+        </shape>
+    </item>
+
+    <item android:top="4dp" android:left="14dp">
+        <shape>
+            <size android:width="2dp" android:height="12dp"/>
+            <solid android:color="#BCAAA4"/>
+        </shape>
+    </item>
+
+</layer-list>

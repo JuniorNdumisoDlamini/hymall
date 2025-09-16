@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- outer rounded rectangle (icon background) -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFB74D"/> <!-- warm orange -->
+            <corners android:radius="6dp"/>
+        </shape>
+    </item>
+
+    <!-- white message band at top -->
+    <item android:top="4dp" android:left="6dp" android:right="6dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF"/>
+            <corners android:radius="4dp"/>
+            <size android:height="8dp"/>
+        </shape>
+    </item>
+
+    <!-- small "paper" body -->
+    <item android:top="14dp" android:left="6dp" android:right="6dp" android:bottom="6dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF"/>
+            <corners android:radius="3dp"/>
+        </shape>
+    </item>
+
+    <!-- tiny dot to indicate "new" -->
+    <item android:gravity="right|top" android:right="6dp" android:top="6dp">
+        <shape android:shape="oval">
+            <size android:width="6dp" android:height="6dp"/>
+            <solid android:color="#D84315"/>
+        </shape>
+    </item>
+</layer-list>

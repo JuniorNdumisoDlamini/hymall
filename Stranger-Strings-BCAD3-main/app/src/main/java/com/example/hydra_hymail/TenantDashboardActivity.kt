@@ -49,7 +49,7 @@ class TenantDashboardActivity : AppCompatActivity() {
         }
 
         findViewById<ImageView?>(R.id.btn_profile)?.setOnClickListener {
-            startActivity(Intent(this, SettingsActivity::class.java))
+            startActivity(Intent(this, TenantSettingsActivity::class.java))
         }
     }
 
@@ -73,7 +73,7 @@ class TenantDashboardActivity : AppCompatActivity() {
         }
 
         nav.findViewById<View?>(R.id.nav_settings)?.setOnClickListener {
-            startActivity(Intent(this, SettingsActivity::class.java))
+            startActivity(Intent(this, TenantSettingsActivity::class.java))
         }
     }
 

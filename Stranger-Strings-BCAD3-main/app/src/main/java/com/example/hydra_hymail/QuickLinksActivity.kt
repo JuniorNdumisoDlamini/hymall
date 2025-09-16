@@ -62,7 +62,8 @@ class QuickLinksActivity : AppCompatActivity() {
 
         // Onboarding step click listeners
         stepSetupProfile.setOnClickListener {
-            // TODO: Navigate to profile setup
+            val intent = Intent(this, TenantSettingsActivity::class.java)
+            startActivity(intent)
         }
 
         stepManagePosts.setOnClickListener {

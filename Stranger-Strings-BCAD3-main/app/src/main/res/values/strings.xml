@@ -218,5 +218,11 @@
     <string name="already_have_account">Already have an account? Sign in</string>
     <string name="need_account">Don\'t have an account? Register here</string>
     <string name="email_hint">your.email@store.com</string>
-    <string name="contact_mall_management">Need help? Contact mall management</string>T
+    <string name="contact_mall_management">Need help? Contact mall management</string>
+    <string name="forgot_password_title">"Forgot Password "</string>
+    <string name="forgot_password_subtitle">If you forgot your password provide your email and we will send you a link to rest your password</string>
+    <string name="send_reset_link">Send Rest Password Link\n</string>
+    <string name="back_to_login">Back to Login\n</string>
+    <string name="forgot_password">Forgot Password?\n</string>
+    T
 </resources>

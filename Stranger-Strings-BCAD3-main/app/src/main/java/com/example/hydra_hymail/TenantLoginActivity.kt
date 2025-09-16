@@ -17,6 +17,7 @@ class TenantLoginActivity : AppCompatActivity() {
     private lateinit var btnAppleLogin: Button
     private lateinit var tvContactSupport: TextView
     private lateinit var tvNeedAccount: TextView
+    private lateinit var tvForgotPassword: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,6 +38,7 @@ class TenantLoginActivity : AppCompatActivity() {
         btnAppleLogin = findViewById(R.id.btnAppleLogin)
         tvContactSupport = findViewById(R.id.tvContactSupport)
         tvNeedAccount = findViewById(R.id.tvNeedAccount)
+        tvForgotPassword = findViewById(R.id.tvForgotPassword)
     }
 
     private fun setupClickListeners() {
@@ -63,6 +65,12 @@ class TenantLoginActivity : AppCompatActivity() {
 
         tvContactSupport.setOnClickListener {
             // TODO: Open support contact options
+        }
+
+        tvForgotPassword.setOnClickListener {
+            val intent = Intent(this, ForgotPasswordActivity::class.java)
+            startActivity(intent)
+            overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right)
         }
     }
 

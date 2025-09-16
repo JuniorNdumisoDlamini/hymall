@@ -81,6 +81,20 @@
             android:layout_marginBottom="24dp"
             android:elevation="2dp" />
 
+        <!-- Forgot Password Link -->
+        <TextView
+            android:id="@+id/tvForgotPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_password"
+            android:textColor="@color/primary_color"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:padding="6dp"
+            android:layout_marginBottom="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+
+
         <!-- Need Account Link -->
         <TextView
             android:id="@+id/tvNeedAccount"
