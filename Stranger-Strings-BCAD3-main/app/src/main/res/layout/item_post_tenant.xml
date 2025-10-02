@@ -1,6 +1,162 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_light">
+
+    <!-- Author & Category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/post_author"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/author_name"
+            android:textSize="14sp"
+            android:textColor="@color/text_primary"
+            android:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:id="@+id/post_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category"
+            android:textSize="12sp"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="4dp"
+            android:background="@drawable/category_background"
+            android:textColor="@color/text_primary" />
+    </LinearLayout>
+
+    <!-- Post Content -->
+    <TextView
+        android:id="@+id/post_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/post_content_placeholder"
+        android:textSize="14sp"
+        android:textColor="@color/text_primary"
+        android:layout_marginTop="8dp" />
+
+    <!-- Location (connect to api)-->
+    <TextView
+        android:id="@+id/post_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/location_info"
+        android:textSize="12sp"
+        android:textColor="@color/text_secondary"
+        android:layout_marginTop="4dp" />
+
+    <!-- Media Preview -->
+    <LinearLayout
+        android:id="@+id/media_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <ImageView
+            android:id="@+id/post_media"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/empty_string"
+            android:background="@color/background_light" />
+
+        <TextView
+            android:id="@+id/post_media_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/media_file_name"
+            android:textSize="12sp"
+            android:textColor="@color/text_primary"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <!-- Emoji/Reactions -->
+    <LinearLayout
+        android:id="@+id/post_emojis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/emoji_happy"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:text="😊"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground" />
+
+        <TextView
+            android:id="@+id/emoji_love"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:text="😍"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_marginStart="4dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground" />
+
+        <TextView
+            android:id="@+id/emoji_angry"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:text="😠"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_marginStart="4dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground" />
+    </LinearLayout>
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btn_hide"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hide"
+            android:background="@drawable/button_secondary"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:layout_marginEnd="12dp"/>
+
+        <Button
+            android:id="@+id/btn_delete"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            android:background="@drawable/button_danger"
+            android:textColor="@color/white"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -157,7 +157,7 @@
     <string name="money_saved">Money Saved</string>
     <string name="likes_received">Likes Received</string>
     <string name="your_badges">Your Badges</string>
-    <string name="leaderboard">Leaderboard</string>
+
     <string name="available_rewards">Available Rewards</string>
     <string name="version_info">1</string>
     <string name="about_help">About help\n</string>
@@ -224,5 +224,74 @@
     <string name="send_reset_link">Send Rest Password Link\n</string>
     <string name="back_to_login">Back to Login\n</string>
     <string name="forgot_password">Forgot Password?\n</string>
-    T
+
+
+
+    <!-- Tic Tac Toe game -->
+    <string name="ttt_cell">Tic Tac Toe cell</string>
+    <string name="ttt_reset_board">Reset Board</string>
+    <string name="ttt_player_wins">Player Wins!</string>
+    <string name="ttt_computer_wins">Computer Wins!</string>
+
+    <string name="game_draw">Game Draw</string>
+    <string name="ttt_draw">Draw</string>
+
+    <string name="reset">Reset</string>
+    <string name="play_tic_tac_toe">Play Tic Tac Toe</string>
+
+    <string name="leaderboard_entry_name">%1$d. %2$s</string>
+    <string name="leaderboard_entry_score">%1$d pts</string>
+    <string name="player_x_wins">Player X wins!</string>
+    <string name="player_o_wins">Player O wins!</string>
+
+    <!-- Tic Tac Toe messages -->
+    <string name="player_score">Player: %1$d</string>
+    <string name="computer_score">Computer: %1$d</string>
+
+
+    <!-- Badge status -->
+    <string name="badge_status_earned">Earned</string>
+    <string name="badge_status_locked">Locked</string>
+
+    <!-- Missing strings in activity_badges.xml -->
+    <string name="locked_badges">Locked Badges</string>
+    <string name="xp_2450">2,450 XP</string>
+    <string name="level_badge">Level Badge</string>
+    <string name="badges_leaderboard">Badges &amp; Leaderboard</string>
+
+    <!-- Difficulty level to play the game -->
+    <string name="ttt_difficulty">Difficulty</string>
+    <string-array name="ttt_difficulties">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+
+    <!-- Leaderboard intergrated to the tictactoe game -->
+    <string name="rank_placeholder">1</string>
+    <string name="player_name_placeholder">Player Name</string>
+    <string name="points_placeholder">999 pts</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="leaderboard_list">List of leaderboard players</string>
+    <string name="points_format">%1$d pts</string>
+
+
+    <!-- item_post_tenant.xml -->
+    <string name="hide">Hide</string>
+    <string name="delete">Delete</string>
+    <string name="author_name">Author Name</string>
+    <string name="category_label">Category</string>
+    <string name="post_content_placeholder">This is the post content.</string>
+    <string name="location_info">Location info</string>
+    <string name="media_file_name">Media file name</string>
+    <string name="emoji_placeholder_o">O</string>
+    <string name="empty_string"> </string>
+    <string name="at_symbol">@</string>
+
+    <string name="no_badges_yet">You have not earned any badges yet.</string>
+
+
+
+
+
 </resources>

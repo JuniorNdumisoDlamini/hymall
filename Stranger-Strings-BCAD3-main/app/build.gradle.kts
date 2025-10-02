@@ -19,6 +19,9 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
+        val webClientId = project.findProperty("GOOGLE_WEB_CLIENT_ID") as? String ?: ""
+        buildConfigField("String", "GOOGLE_WEB_CLIENT_ID", "\"$webClientId\"")
+
         buildConfigField("String", "GOOGLE_API_KEY", "\"${property("GOOGLE_API_KEY")}\"")
 
         buildConfigField("String", "GOOGLE_PLACES_API_KEY", "\"${property("GOOGLE_PLACES_API_KEY")}\"")
@@ -26,6 +29,9 @@ android {
 
         buildConfigField ("String", "LOCAL_BASE_URL", "\"${property("LOCAL_BASE_URL")}\"")
         buildConfigField ("String", "PROD_BASE_URL", "\"${property("PROD_BASE_URL")}\"")
+
+
+
 
 
     }
@@ -68,6 +74,8 @@ dependencies {
     implementation(libs.play.services.maps)
     implementation(libs.google.firebase.functions.ktx)
     implementation(libs.firebase.firestore.ktx)
+    //media load for consumer and tenant
+
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

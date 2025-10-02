@@ -74,7 +74,7 @@ class TenantRegistrationActivity : AppCompatActivity() {
     }
 
     private fun navigateToTenantHome() {
-        val intent = Intent(this, TenantDashboardActivity::class.java)
+        val intent = Intent(this, QuickLinksActivity::class.java)
         intent.putExtra("USER_ROLE", "tenant")
         startActivity(intent)
         finish()

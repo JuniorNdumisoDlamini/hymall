@@ -1,6 +1,245 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ttt_root"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/ttt_background_color">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Scores row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/playerScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/player_score"
+            android:textSize="18sp"
+            android:textColor="@color/ttt_text_primary"
+            android:layout_margin="8dp" />
+
+        <TextView
+            android:id="@+id/computerScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/computer_score"
+            android:textSize="18sp"
+            android:textColor="@color/ttt_text_primary"
+            android:layout_margin="8dp" />
+    </LinearLayout>
+
+    <!-- Difficulty selector -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/tv_difficulty_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ttt_difficulty"
+            android:textSize="14sp"
+            android:textColor="@color/ttt_text_primary"
+            android:layout_marginEnd="8dp"/>
+
+        <Spinner
+            android:id="@+id/difficultySpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <!-- Board area -->
+    <LinearLayout
+        android:id="@+id/board_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp">
+
+        <!-- Row 0 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button00"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="36sp"
+                android:contentDescription="@string/ttt_cell" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/ttt_divider_color" />
+
+            <Button
+                android:id="@+id/button01"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="36sp"
+                android:contentDescription="@string/ttt_cell" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/ttt_divider_color" />
+
+            <Button
+                android:id="@+id/button02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="36sp"
+                android:contentDescription="@string/ttt_cell" />
+        </LinearLayout>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/ttt_divider_color" />
+
+        <!-- Row 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="36sp"
+                android:contentDescription="@string/ttt_cell" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/ttt_divider_color" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="36sp"
+                android:contentDescription="@string/ttt_cell" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/ttt_divider_color" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="36sp"
+                android:contentDescription="@string/ttt_cell" />
+        </LinearLayout>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/ttt_divider_color" />
+
+        <!-- Row 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="36sp"
+                android:contentDescription="@string/ttt_cell" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/ttt_divider_color" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="36sp"
+                android:contentDescription="@string/ttt_cell" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/ttt_divider_color" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="36sp"
+                android:contentDescription="@string/ttt_cell" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Buttons row: Reset + Back -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="@string/ttt_reset_board"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/ttt_primary_color"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="@string/back"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/ttt_primary_color"/>
+    </LinearLayout>
+</LinearLayout>

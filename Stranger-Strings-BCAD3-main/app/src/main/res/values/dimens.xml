@@ -112,4 +112,13 @@
     <!-- Notification dimensions -->
     <dimen name="notification_dot_size">8dp</dimen>
     <dimen name="notification_badge_size">16dp</dimen>
+
+    <!-- Tic Tac Toe board-->
+    <dimen name="ttt_board_padding">16dp</dimen>
+    <dimen name="ttt_cell_text_size">32sp</dimen>
+    <dimen name="ttt_score_text_size">16sp</dimen>
+    <dimen name="ttt_margin_top">16dp</dimen>
+    <dimen name="ttt_divider_size">2dp</dimen>
+    <dimen name="ttt_cell_min_size">64dp</dimen> <!-- ensures touch target >48dp -->
+
 </resources>

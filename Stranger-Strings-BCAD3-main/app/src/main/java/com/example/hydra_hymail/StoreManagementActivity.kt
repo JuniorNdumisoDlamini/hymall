@@ -232,6 +232,7 @@ class StoreManagementActivity : AppCompatActivity() {
 }
 
 data class CustomerFeedback(
+
     val customerName: String,
     val content: String,
     val category: String,

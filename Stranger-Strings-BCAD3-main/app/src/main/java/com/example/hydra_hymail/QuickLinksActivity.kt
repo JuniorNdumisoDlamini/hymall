@@ -1,7 +1,5 @@
 package com.example.hydra_hymail
 
-
-
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -46,12 +44,12 @@ class QuickLinksActivity : AppCompatActivity() {
         }
 
         cardViewAnalytics.setOnClickListener {
-            val intent = Intent(this, StoreManagementActivity::class.java)
+            val intent = Intent(this, TenantDashboardActivity::class.java)
             startActivity(intent)
         }
 
         cardCustomerFeedback.setOnClickListener {
-            val intent = Intent(this, StoreManagementActivity::class.java)
+            val intent = Intent(this, CreatePostActivity::class.java)
             startActivity(intent)
         }
 

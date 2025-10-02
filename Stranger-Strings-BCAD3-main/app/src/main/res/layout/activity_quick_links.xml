@@ -164,7 +164,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="View Analytics"
+                        android:text="View Feed"
                         android:textSize="14sp"
                         android:textStyle="bold"
                         android:textColor="@color/text_primary"
@@ -203,7 +203,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Customer Feedback"
+                        android:text="Create Post"
                         android:textSize="14sp"
                         android:textStyle="bold"
                         android:textColor="@color/text_primary"

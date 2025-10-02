@@ -26,4 +26,46 @@
         <item name="android:windowContentOverlay">@null</item>
     </style>
 
+
+    <!-- Tic Tac Toe game badge implementation -->
+
+    <!-- Tic Tac Toe Row Layout -->
+    <style name="TicTacToeRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- Tic Tac Toe Cell (each button) -->
+    <style name="TicTacToeCell">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:minWidth">@dimen/ttt_cell_min_size</item>
+        <item name="android:minHeight">@dimen/ttt_cell_min_size</item>
+        <item name="android:textSize">@dimen/ttt_cell_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:textColor">@color/ttt_text_primary</item>
+    </style>
+
+    <!-- Vertical Divider -->
+    <style name="VerticalDivider">
+        <item name="android:layout_width">@dimen/ttt_divider_size</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/ttt_divider_color</item>
+    </style>
+
+    <!-- Horizontal Divider -->
+    <style name="HorizontalDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/ttt_divider_size</item>
+        <item name="android:background">@color/ttt_divider_color</item>
+    </style>
+
+
+
+
 </resources>

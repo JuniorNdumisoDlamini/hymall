@@ -203,4 +203,20 @@
     <color name="primary_color">@color/primary_teal</color>
     <color name="notification_unread_bg">@color/notification_unread</color>
 
+
+    <!-- Tic Tac Toe Colors matching Badge theme -->
+    <color name="ttt_background_color">#F5F5F5</color>   <!-- light neutral background -->
+    <color name="ttt_text_primary">#212121</color>       <!-- primary text color -->
+    <color name="ttt_primary_color">#0D54E1</color>      <!-- primary accent color (same as badge primary) -->
+    <color name="ttt_x_color">#0D54E1</color>            <!-- X player color (blue) -->
+    <color name="ttt_o_color">#FF9800</color>            <!-- O player color (orange) -->
+    <color name="ttt_divider_color">#BDBDBD</color>      <!-- divider lines -->
+    <color name="ttt_player_color">#0D54E1</color> <!-- X -->
+    <color name="ttt_computer_color">#FF4081</color> <!-- O -->
+
+    <!-- Tenant View Feeds -->
+    <color name="danger">#FF5C5C</color>
+
+
+
 </resources>
